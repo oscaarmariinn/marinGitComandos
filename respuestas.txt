@@ -1,3 +1,4 @@
 1. grep -i "Juan" datos.txt
 2. grep -i "juan" datos.txt | awk -F ',' '{print $4}'
 3. grep -c 'PROG' datos.txt
+4. grep -P 'PROG$' datos.txt | wc -l
