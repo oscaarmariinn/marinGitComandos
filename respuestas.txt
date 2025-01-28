@@ -5,3 +5,4 @@
 5. grep '.es' datos.txt | awk -F',' '{print $2}' | awk '{print $1}'
 6. sed -i 's/\.com/\.net/g' datos.txt
 7. grep '-' datos.txt | wc -l
+8. awk -F',' '$3 > 40 {print $2, $3}' datos.txt
